@@ -15,7 +15,35 @@ function exercise11() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
-  // -----------------------------------------------------------------
+  
+let count = 0;
+for (let i = 0; i < 4; i++){
+let string = ''
+  if (count % 2 === 0){
+    for (let j = 0; j < 8; j++){
+      if (j % 2 === 0){
+        string = string + '#'
+      } else {
+        string = string + '_'
+      }
+    } 
+  }
+console.log(string)          
+  count++;
+  if (count % 2 !== 0){
+    let string = ''
+    for (let j = 0; j < 8; j++){
+      if (j % 2 === 0){
+        string = string + '_'
+      } else {
+        string = string + '#'
+      }
+    }
+  count++;         
+console.log(string)          
+  }
+}
+    // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
   //

@@ -20,6 +20,16 @@ function exercise13() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  let myArr = [0,1]
+  for (let i = 0; i < 50; i++){
+  let firstNum = myArr[myArr.length - 2];
+  let secondNum = myArr[myArr.length - 1];
+  let nextNum = firstNum + secondNum;
+  myArr.push(nextNum)
+  
+  }
+  console.log(myArr);
+  
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
